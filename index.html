@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Onkar Lapate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Flow of resume
+        1. Header section with nav bar and images
+        2. about section
+        3. skills
+        4. projects
+        5. contact - in footer
+    -->
+
+    <!-- header section -->
+    <header id="body-header">
+
+        <!-- Navigation bar -->
+        <nav id="nav-bar">
+            <ul class="horizontal-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- name header -->
+        <h2 id="name"> Onkar Lapate</h2>
+
+        <!-- socail media links -->
+        <div>
+            <ul class="horizontal-list social-icons">
+                <li><a href="#">
+                    <img class="social-img" src="linkedin-logo.png" alt="linkedin-icon">
+                </a></li>
+                <li><a href="#">
+                    <img class="social-img" src="github-logo.png" alt="github-icon">
+                </a></li>
+                <li><a href="#">
+                    <img class="social-img" src="leetcode-logo.png" alt="leetcode-icon">
+                </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- About section -->
+        <section id="about">
+            <div id="icon-image">
+                <img src="my-image.jpg" alt="avatar" id="icon">
+            </div>
+            <p id="about-me">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A quisquam laudantium maxime voluptate aliquid ipsam, dicta incidunt mollitia, odit magni eligendi similique doloremque adipisci debitis reiciendis id facere saepe consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos vitae reprehenderit impedit nemo aliquam. Impedit dolor molestias tenetur eum voluptates ad dolorum nam et non maxime. Tempora, debitis consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </section>
+
+        <!-- Skills section  -->
+        <section id="skills">
+            <h1 class="section-heading">
+                <span ><img class="heading-icon"  src="skills-icon.png" alt="skills-icon"></span>
+                <span>SKILLS</span>
+            </h1>
+
+            <!-- Skills with strength percent -->
+
+            <div class="skills-display-container">
+                <div class="skill-progress"> 
+                    <div id="skill-1">
+                        <span class="skill-name">C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress"> 
+                    <div id="skill-2">
+                        <span class="skill-name">DSA</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress"> 
+                    <div id="skill-3">
+                        <span class="skill-name">HTML</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress"> 
+                    <div id="skill-4">
+                        <span class="skill-name">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress"> 
+                    <div id="skill-5">
+                        <span class="skill-name">JS</span>
+                    </div>
+                </div>
+
+                <div class="skill-progress"> 
+                    <div id="skill-6">
+                        <span class="skill-name">BootStrap</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section  -->
+
+        <section id="projects">
+
+            <!-- heading  -->
+            <h1 class="section-heading">
+                <span ><img class="heading-icon"  src="projects-icon.png" alt="skills-icon"></span>
+                <span>Projects</span>
+            </h1>
+
+            <!-- boxes with description  -->
+            <div class="projects-display-container">
+                <div class="project-box">
+                    <span class="project-description">
+                        Project-1
+                    </span>
+                </div>
+
+                <div class="project-box">
+                    <span class="project-description">
+                        Project-2
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h1 class="section-heading">
+                <span ><img class="heading-icon"  src="contacts-icon.png" alt="skills-icon"></span>
+                <span class="contact-heading">Contact</span>
+            </h1>
+
+            <!-- Message me box -->
+            <div class="contact-display-container">
+                <div class="contact-box">
+                    <form id="contact-form">
+                        <input type="text" name="name-input" id="name-input" placeholder="Your Name">
+                        <input type="text" name="email-input" id="email" placeholder="Your Email">
+                        <textarea name="textarea-input" id="textarea" cols="25" rows="5" placeholder="Message"></textarea>
+
+                        <button id="submit-button" type="button" class="send-message">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- My details box -->
+                <div class="contact-box">
+                    <h3 class="contact-h3">Get In Touch</h3>
+                    <p class="contact-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates eos debitis. Vel.lore Lorem ipsum dolor, sit.
+                    </p>
+                    <h3 class="contact-h3">My Details</h3>
+                    <span class="contact-desc" id="address">
+                        <img src="address-icon.png" alt="address-icon" width="20px" height="20px">
+                        Pune, India
+                    </span>
+                    <span class="contact-desc" id="address">
+                        <img src="smartphone-icon.png" alt="smartphone-icon" width="20px" height="20px">
+                        1111111111
+                    </span>
+                    <span class="contact-desc" id="address">
+                        <img src="mail-icon.png" alt="mail-icon" width="20px" height="20px">
+                        onkarlapate@example.com
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js">
+
+        </script>
+
+    </main>
+</body>
+</html>
