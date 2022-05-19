@@ -8,7 +8,11 @@ Opening Page
 
 -------------------------------------------------------------------------------------------------------------------
 
-Skills Section
+Skills Section created using Flexbox
 
 ![image](https://user-images.githubusercontent.com/85246478/169229780-24254453-701f-48a5-85f3-291e94e27cb3.png)
 
+
+Contact Section with gradient background color effect
+
+![image](https://user-images.githubusercontent.com/85246478/169230132-8256f799-9eae-40c9-8f68-10927da16a35.png)
